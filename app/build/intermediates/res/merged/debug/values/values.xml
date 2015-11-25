@@ -1,5 +1,128 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/D:/GITHUB/Toeic/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="grammar_lessons">
+        <item>Unit 1 - Present tenses</item>
+        <item>Unit 2 - Past tenses</item>
+        <item>Unit 3 - Future tenses</item>
+        <item>Unit 4 - V-ing</item>
+        <item>Unit 5 - To-infinitive</item>
+        <item>Unit 6: Bare infinitive, Gerund or infinitive</item>
+        <item>Unit 7 - Modal verbs</item>
+        <item>Unit 8 - Sentence elements</item>
+        <item>Unit 9 - Passive Voice 1</item>
+        <item>Unit 10 - Passive Voice 2</item>
+        <item>Unit 11 - Comparisons</item>
+        <item>Unit 12 - Conditionals</item>
+        <item>Unit 13 - Wishes</item>
+        <item>Unit 14 - Relative clauses</item>
+        <item>Unit 15 - Exclamatory sentences</item>
+        <item>Unit 16 - Reported Speech</item>
+        <item>Unit 17 - Types of questions</item>
+        <item>Unit 18: Subjunctive structures</item>
+        <item>Unit 19: Subject-verb agreement</item>
+        <item>Unit 20 - Inversion of verbs</item>
+        <item>Unit 21: Emphasis</item>
+        <item>Unit 22: Relationships between ideas (1)</item>
+        <item>Unit 23: Relationships between ideas (2)</item>
+        <item>Unit 24: Relationships between ideas (3)</item>
+
+    </string-array>
+    <string-array name="grammar_meaning">
+        <item>Các thì hiện tại</item>
+        <item>Các thì quá khứ</item>
+        <item>Các thì tương lai</item>
+        <item>Động từ dạng V-ing (Hiện tại phân từ và danh động từ)</item>
+        <item>Động từ nguyên thể có "to"</item>
+        <item>Nguyên thể khuyết; V-ing hay To V</item>
+        <item>Động từ khuyết thiếu</item>
+        <item>Các thành phần chính của câu</item>
+        <item>Câu bị động (Phần cơ bản)</item>
+        <item>Câu bị động (Phần nâng cao)</item>
+        <item>Các dạng so sánh</item>
+        <item>Câu điều kiện</item>
+        <item>Câu ước với WISH</item>
+        <item>Mệnh đề quan hệ</item>
+        <item>Câu cảm thán</item>
+        <item>Câu gián tiếp</item>
+        <item>Các loại câu hỏi</item>
+        <item>Cấu trúc giả định</item>
+        <item>Sự hòa hợp giữa chủ ngữ và động từ</item>
+        <item>Đảo ngữ của động từ</item>
+        <item>Sự nhấn mạnh</item>
+        <item>Quan hệ giữa các ý trong câu: Quan hệ bổ sung - Quan hệ thời gian</item>
+        <item>Quan hệ giữa các ý trong câu: Quan hệ nguyên nhân - hệ quả</item>
+        <item>Quan hệ giữa các ý trong câu:Quan hệ nhượng bộ - Quan hệ mục đích</item>
+    </string-array>
+    <string-array name="lessons_practice">
+        <item>Lesson 1 - Contracts</item>
+        <item>Lesson 2 - Marketing</item>
+        <item>Lesson 3 - Warranties</item>
+        <item>Lesson 4 - Business Planning</item>
+        <item>Lesson 5 - Conferences</item>
+        <item>Lesson 6 - Computers and The internet</item>
+        <item>Lesson 7 - Office Technology</item>
+        <item>Lesson 8 - Office Procedures</item>
+        <item>Lesson 9 - Electronics</item>
+        <item>Lesson 10 - Correspondence</item>
+        <item>Lesson 11 - Job Advertising and Recruiting</item>
+        <item>Lesson 12 - Applying and Interviewing</item>
+        <item>Lesson 13 - Hiring and Training</item>
+        <item>Lesson 14 - Salaries and benefits</item>
+        <item>Lesson 15 - Promotions, Pensions and Awards</item>
+        <item>Lesson 16 - Shopping</item>
+        <item>Lesson 17 - Ordering Supplies</item>
+        <item>Lesson 18 - Shipping</item>
+        <item>Lesson 19 - Invoices</item>
+        <item>Lesson 20 - Inventory</item>
+        <item>Lesson 21 - Banking</item>
+        <item>Lesson 22 - Accounting</item>
+        <item>Lesson 23 - Investments</item>
+        <item>Lesson 24 - Taxes</item>
+        <item>Lesson 25 - Financial statements</item>
+        <item>Lesson 26 - Property and department</item>
+        <item>Lesson 27 - Board Meetings and committees</item>
+        <item>Lesson 28 - Quality control</item>
+        <item>Lesson 29 - Product  Development</item>
+        <item>Lesson 30 - Renting and Leasing</item>
+        <item>Lesson 31 - Selecting a Restaurant</item>
+        <item>Lesson 32 - Eating out</item>
+        <item>Lesson 33 - Ordering Lunch</item>
+        <item>Lesson 34 - Cooking as a career</item>
+        <item>Lesson 35 - Events</item>
+        <item>Lesson 36 - General Travel</item>
+        <item>Lesson 37 - Airlines</item>
+        <item>Lesson 38 - Trains</item>
+        <item>Lesson 39 - Hotels</item>
+        <item>Lesson 40 - Car Rentals</item>
+        <item>Lesson 41 - Movies</item>
+        <item>Lesson 42 - Theater</item>
+        <item>Lesson 43 - Music</item>
+        <item>Lesson 44 - Museums</item>
+        <item>Lesson 45 - Media</item>
+        <item>Lesson 46 - Doctor’s Office</item>
+        <item>Lesson 47 - Dentist’s office</item>
+        <item>Lesson 48 - Health Insurance</item>
+        <item>Lesson 49 - Hospitals</item>
+        <item>Lesson 50 - Pharmacy</item>
+    </string-array>
+    <string-array name="video_list">
+        <item>Toeic Trick</item>
+        <item>600 Essential Words Vocabulary</item>
+        <item>600 Essential Words Listening</item>
+        <item>600 Essential Words Reading</item>
+        <item>600 Essential Words Practice</item>
+        <item>Toeic Listening Test</item>
+        <item>Toeic Grammar</item>
+        <item>Toeic Full Test</item>
+        <item>Toeic Listening Practice</item>
+        <item>Toeic - Analyst</item>
+        <item>Longman Toeic Test </item>
+        <item>Toeic Economy - Toeic Every day</item>
+        <item>Toeic VTV2 - MS Phuong</item>
+        <item>Stater Toeic Third Edition</item>
+    </string-array>
     <!-- From: file:/D:/GITHUB/Toeic/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
@@ -34,9 +157,9 @@
     <color name="button_material_light">#ffd6d7d7</color>
     <!-- From: file:/D:/GITHUB/Toeic/app/src/main/res/values/colors.xml -->
     <eat-comment/>
-    <color name="colorAccent">#c8e8ff</color>
-    <color name="colorPrimary">#125688</color>
-    <color name="colorPrimaryDark">#125688</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="colorPrimary">#199ad4</color>
+    <color name="colorPrimaryDark">#0288D1</color>
     <!-- From: file:/D:/GITHUB/Toeic/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <color name="design_fab_shadow_end_color">@android:color/transparent</color>
@@ -74,7 +197,7 @@
     <color name="material_grey_900">#ff212121</color>
     <!-- From: file:/D:/GITHUB/Toeic/app/src/main/res/values/colors.xml -->
     <eat-comment/>
-    <color name="navigationBarColor">#000000</color>
+    <color name="navigationBarColor">#ffffff</color>
     <!-- From: file:/D:/GITHUB/Toeic/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <color name="primary_dark_material_dark">@android:color/black</color>
@@ -105,6 +228,7 @@
     <declare-styleable name="ActionMenuView"/>
     <declare-styleable name="ActionMode"><attr name="titleTextStyle"/><attr name="subtitleTextStyle"/><attr name="background"/><attr name="backgroundSplit"/><attr name="height"/><attr format="reference" name="closeItemLayout"/></declare-styleable>
     <declare-styleable name="ActivityChooserView"><attr format="string" name="initialActivityCount"/><attr format="reference" name="expandActivityOverflowButtonDrawable"/></declare-styleable>
+    <declare-styleable name="AdsAttrs"><attr format="string" name="adSize"/><attr format="string" name="adSizes"/><attr format="string" name="adUnitId"/></declare-styleable>
     <declare-styleable name="AlertDialog"><attr name="android:layout"/><attr format="reference" name="buttonPanelSideLayout"/><attr format="reference" name="listLayout"/><attr format="reference" name="multiChoiceItemLayout"/><attr format="reference" name="singleChoiceItemLayout"/><attr format="reference" name="listItemLayout"/></declare-styleable>
     <declare-styleable name="AppBarLayout"><attr name="elevation"/><attr name="android:background"/><attr format="boolean" name="expanded"/></declare-styleable>
     <declare-styleable name="AppBarLayout_LayoutParams"><attr name="layout_scrollFlags"><flag name="scroll" value="0x1"/><flag name="exitUntilCollapsed" value="0x2"/><flag name="enterAlways" value="0x4"/><flag name="enterAlwaysCollapsed" value="0x8"/><flag name="snap" value="0x10"/></attr><attr format="reference" name="layout_scrollInterpolator"/></declare-styleable>
@@ -122,6 +246,7 @@
     <declare-styleable name="LinearLayoutCompat"><attr name="android:orientation"/><attr name="android:gravity"/><attr name="android:baselineAligned"/><attr name="android:baselineAlignedChildIndex"/><attr name="android:weightSum"/><attr format="boolean" name="measureWithLargestChild"/><attr name="divider"/><attr name="showDividers"><flag name="none" value="0"/><flag name="beginning" value="1"/><flag name="middle" value="2"/><flag name="end" value="4"/></attr><attr format="dimension" name="dividerPadding"/></declare-styleable>
     <declare-styleable name="LinearLayoutCompat_Layout"><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_weight"/><attr name="android:layout_gravity"/></declare-styleable>
     <declare-styleable name="ListPopupWindow"><attr name="android:dropDownVerticalOffset"/><attr name="android:dropDownHorizontalOffset"/></declare-styleable>
+    <declare-styleable name="LoadingImageView"><attr format="enum" name="imageAspectRatioAdjust"><enum name="none" value="0"/><enum name="adjust_width" value="1"/><enum name="adjust_height" value="2"/></attr><attr format="float" name="imageAspectRatio"/><attr format="boolean" name="circleCrop"/></declare-styleable>
     <declare-styleable name="MenuGroup"><attr name="android:id"/><attr name="android:menuCategory"/><attr name="android:orderInCategory"/><attr name="android:checkableBehavior"/><attr name="android:visible"/><attr name="android:enabled"/></declare-styleable>
     <declare-styleable name="MenuItem"><attr name="android:id"/><attr name="android:menuCategory"/><attr name="android:orderInCategory"/><attr name="android:title"/><attr name="android:titleCondensed"/><attr name="android:icon"/><attr name="android:alphabeticShortcut"/><attr name="android:numericShortcut"/><attr name="android:checkable"/><attr name="android:checked"/><attr name="android:visible"/><attr name="android:enabled"/><attr name="android:onClick"/><attr name="showAsAction"><flag name="never" value="0"/><flag name="ifRoom" value="1"/><flag name="always" value="2"/><flag name="withText" value="4"/><flag name="collapseActionView" value="8"/></attr><attr format="reference" name="actionLayout"/><attr format="string" name="actionViewClass"/><attr format="string" name="actionProviderClass"/></declare-styleable>
     <declare-styleable name="MenuView"><attr name="android:itemTextAppearance"/><attr name="android:horizontalDivider"/><attr name="android:verticalDivider"/><attr name="android:headerBackground"/><attr name="android:itemBackground"/><attr name="android:windowAnimationStyle"/><attr name="android:itemIconDisabledAlpha"/><attr format="boolean" name="preserveIconSpacing"/></declare-styleable>
@@ -304,6 +429,9 @@
     <!-- From: file:/D:/GITHUB/Toeic/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <integer name="design_snackbar_text_max_lines">2</integer>
+    <!-- From: file:/D:/GITHUB/Toeic/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values/version.xml -->
+    <eat-comment/>
+    <integer name="google_play_services_version">8298000</integer>
     <!-- From: file:/D:/GITHUB/Toeic/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <integer name="status_bar_notification_info_maxnum">999</integer>
@@ -326,6 +454,9 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
+    <!-- From: file:/D:/GITHUB/Toeic/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/res/values/admob_strings.xml -->
+    <eat-comment/>
+    <string name="accept">Accept</string>
     <!-- From: file:/D:/GITHUB/Toeic/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="action_settings">Settings</string>
@@ -333,13 +464,80 @@
     <!-- From: file:/D:/GITHUB/Toeic/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <!-- From: file:/D:/GITHUB/Toeic/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values/auth_strings.xml -->
+    <eat-comment/>
+    <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>
+    <string name="auth_google_play_services_client_google_display_name">Google</string>
+    <!-- From: file:/D:/GITHUB/Toeic/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="banner_ad_unit_id">ca-app-pub-7506437276090830/6459210308</string>
+    <!-- From: file:/D:/GITHUB/Toeic/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/values/values.xml -->
+    <eat-comment/>
     <string name="character_counter_pattern" translatable="false">%1$d/%2$d</string>
+    <!-- From: file:/D:/GITHUB/Toeic/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="chromeless">Chromeless</string>
+    <!-- From: file:/D:/GITHUB/Toeic/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values/common_strings.xml -->
+    <eat-comment/>
+    <string name="common_android_wear_notification_needs_update_text"><ns1:g id="app_name">%1$s</ns1:g> requires an update to the Android Wear app.</string>
+    <string name="common_android_wear_update_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run unless you update the Android Wear app.</string>
+    <string msgid="6006316683626838685" name="common_android_wear_update_title">Update Android Wear</string>
+    <string name="common_google_play_services_api_unavailable_text"><ns1:g id="app_name">%1$s</ns1:g> requires one or more Google Play services that are not currently available. Please contact the developer for assistance.</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable Google Play services</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Requested by <ns1:g id="app_name">%1$s</ns1:g></string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Get Google Play services</string>
+    <string msgid="2122112764540849864" name="common_google_play_services_install_text_phone"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your phone.</string>
+    <string msgid="7351599665250191022" name="common_google_play_services_install_text_tablet"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your tablet.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_invalid_account_text">The specified account does not exist on this device. Please choose a different account.</string>
+    <string name="common_google_play_services_invalid_account_title">Invalid Account</string>
+    <string name="common_google_play_services_needs_enabling_title">An application requires Google Play services to be enabled.</string>
+    <string name="common_google_play_services_network_error_text">A data connection is required to connect to Google Play services.</string>
+    <string name="common_google_play_services_network_error_title">Network Error</string>
+    <string name="common_google_play_services_notification_needs_update_title">An application requires an update for Google Play services.</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_sign_in_failed_text">Error signing in the specified account. Please choose a different account.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Sign in failed</string>
+    <string name="common_google_play_services_unknown_issue">Unknown issue with Google Play services.</string>
+    <string name="common_google_play_services_unsupported_text"><ns1:g id="app_name">%1$s</ns1:g> relies on Google Play services, which is not supported by your device. Contact the manufacturer for assistance.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play services</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Update</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run unless you update Google Play services.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are currently updating.</string>
+    <string name="common_google_play_services_updating_title">Google Play services are updating</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <!-- From: file:/D:/GITHUB/Toeic/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/res/values/admob_strings.xml -->
+    <eat-comment/>
+    <string name="create_calendar_message">Allow Ad to create a calendar event?</string>
+    <string name="create_calendar_title">Create calendar event</string>
+    <string name="decline">Decline</string>
+    <!-- From: file:/D:/GITHUB/Toeic/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="def">Default</string>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
     <!-- From: file:/D:/GITHUB/Toeic/app/src/main/res/values/fonts.xml -->
     <eat-comment/>
     <string name="font_fontFamily_medium">sans-serif</string>
+    <!-- From: file:/D:/GITHUB/Toeic/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="minimal">Minimal</string>
+    <string name="pause">Pause</string>
+    <string name="play">Play</string>
+    <string name="player_style">Player Style</string>
+    <string name="playerfragment_text">This is a YouTubePlayerFragment!</string>
+    <string name="playerview_text">This is a YouTubePlayerView!</string>
+    <string name="seconds">secs</string>
+    <string name="skip_to">Skip To</string>
     <!-- From: file:/D:/GITHUB/Toeic/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <!-- From: file:/D:/GITHUB/Toeic/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/res/values/admob_strings.xml -->
+    <eat-comment/>
+    <string name="store_picture_message">"Allow Ad to store image in Picture gallery?"</string>
+    <string name="store_picture_title">Save image</string>
     <!-- From: file:/D:/GITHUB/Toeic/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="title_activity_list_vocab">ListVocabActivity</string>
@@ -355,11 +553,13 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
         <item name="colorAccent">@color/colorAccent</item>
     </style>
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
+
         <item name="windowNoTitle">true</item>
     </style>
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
@@ -1318,11 +1518,12 @@
 
     </style>
     <style name="MyMaterialTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
-    <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="windowNoTitle">true</item>
         <item name="windowActionBar">false</item>
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:windowActionBarOverlay">true</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
     <style name="MyMaterialTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
@@ -1589,6 +1790,18 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
+    <!-- From: file:/D:/GITHUB/Toeic/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/res/values/admob_iap_style.xml -->
+    <eat-comment/>
+    <style name="Theme.IAPTheme" parent="android:Theme">
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowIsFloating">true</item>
+    <item name="android:backgroundDimEnabled">false</item>
+  </style>
+    <!-- From: file:/D:/GITHUB/Toeic/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <eat-comment/>
     <style name="ThemeOverlay.AppCompat" parent="Base.ThemeOverlay.AppCompat"/>
     <style name="ThemeOverlay.AppCompat.ActionBar" parent="Base.ThemeOverlay.AppCompat.ActionBar"/>
     <style name="ThemeOverlay.AppCompat.Dark" parent="Base.ThemeOverlay.AppCompat.Dark"/>

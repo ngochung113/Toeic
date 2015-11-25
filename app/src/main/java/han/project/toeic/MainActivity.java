@@ -1,5 +1,9 @@
 package han.project.toeic;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
@@ -20,12 +24,14 @@ public class MainActivity extends AppCompatActivity {
     private Toolbar toolbar;
     private TabLayout tabLayout;
     private ViewPager viewPager;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
         //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         viewPager = (ViewPager) findViewById(R.id.viewpager);
@@ -34,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
         tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(viewPager);
         setupTabIcons();
+
 
     }
     private void setupViewPager(ViewPager viewPager) {
@@ -45,15 +52,15 @@ public class MainActivity extends AppCompatActivity {
         viewPager.setAdapter(adapter);
     }
     private  void setupTabIcons(){
-        TextView tabIntro = (TextView) LayoutInflater.from(this).inflate(R.layout.custom_tab,null);
-        tabIntro.setText("Vocab");
-        tabIntro.setCompoundDrawablesWithIntrinsicBounds(0,R.mipmap.ic_tab_white_24dp,0,0);
-        tabLayout.getTabAt(0).setCustomView(tabIntro);
-
         TextView tabVocab = (TextView) LayoutInflater.from(this).inflate(R.layout.custom_tab,null);
-        tabVocab.setText("Video");
-        tabVocab.setCompoundDrawablesWithIntrinsicBounds(0, R.mipmap.ic_video_library_white_24dp, 0, 0);
-        tabLayout.getTabAt(1).setCustomView(tabVocab);
+        tabVocab.setText("Vocab");
+        tabVocab.setCompoundDrawablesWithIntrinsicBounds(0, R.mipmap.ic_tab_white_24dp, 0, 0);
+        tabLayout.getTabAt(0).setCustomView(tabVocab);
+
+        TextView tabVideo = (TextView) LayoutInflater.from(this).inflate(R.layout.custom_tab,null);
+        tabVideo.setText("Video");
+        tabVideo.setCompoundDrawablesWithIntrinsicBounds(0, R.mipmap.ic_video_library_white_24dp, 0, 0);
+        tabLayout.getTabAt(1).setCustomView(tabVideo);
 
         TextView tabGrammar = (TextView) LayoutInflater.from(this).inflate(R.layout.custom_tab,null);
         tabGrammar.setText("Grammar");
@@ -100,7 +107,22 @@ public class MainActivity extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
+    public void showDialog(){
+        AlertDialog.Builder alert = new AlertDialog.Builder(this);
+        alert.setTitle("Hello User");
+        alert.setMessage("Developers: Group 3 \n" +
+                "Email: hanthienduc.96@gmail.com \n" +
+                "Phone: 0943 414 425 \n" +
+                "We want to make user have a good exprience so if you have any problem please contact with us through email above");
+        alert.setIcon(R.mipmap.ic_launcher);
+        alert.setNegativeButton("Cancel",new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
 
+            }
+        });
+        alert.show();
+    }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
@@ -109,10 +131,45 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+        switch(id){
+            case R.id.action_info:
+                showDialog();
+                break;
+            case R.id.action_share:
+                shareIt();
+                break;
+            case R.id.action_feedback:
+                feedback();
+                break;
+            case R.id.action_login:
+                Intent i = new Intent(MainActivity.this,LoginActivity.class);
+                startActivity(i);
+                break;
+
         }
 
         return super.onOptionsItemSelected(item);
+    }
+    private void shareIt(){
+        try {
+            Intent shareingIntent = new Intent(Intent.ACTION_SEND);
+            shareingIntent.setType("text/plain");
+            shareingIntent.putExtra(Intent.EXTRA_SUBJECT, "Toeic");
+            String sAux = "\nLet me recommend you this application\n\n";
+            sAux = sAux + "https://play.google.com/store/apps/details?id=hohieu.wordtoeic \n\n";
+            shareingIntent.putExtra(Intent.EXTRA_TEXT,sAux);
+            startActivity(Intent.createChooser(shareingIntent,"Share via"));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+    public void feedback(){
+        Intent intent = new Intent(Intent.ACTION_SENDTO); // it's not ACTION_SEND
+        intent.setType("text/plain");
+        intent.putExtra(Intent.EXTRA_SUBJECT, "Subject of email");
+        intent.putExtra(Intent.EXTRA_TEXT, "Body of email");
+        intent.setData(Uri.parse("mailto:default@hanthienduc.96@gmail.com")); // or just "mailto:" for blank
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK); // this will make such that when user returns to your app, your app is displayed, instead of the email app.
+        startActivity(intent);
     }
 }
